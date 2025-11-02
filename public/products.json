@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f5320043-9bd4-4efe-99ff-7a2e59aa6e53",
+    "name": "gogeta",
+    "images": [
+      {
+        "uid": "1cf8ba53-c8b4-46b4-9d86-9ee37b005b08",
+        "name": "image.png",
+        "status": "done",
+        "url": "/images/dbc26f49-8038-4c8d-9593-7ad6a2443860lr-teq-goku-angel-and-vegeta-angel-fusion-reborn.gif"
+      }
+    ],
+    "label": "goku",
+    "value": "goku",
+    "details": "gogeta"
+  },
+  {
+    "id": "e70005b1-8543-4db4-91cc-6e896f93d340",
+    "name": "freeza",
+    "details": "freeza",
+    "images": [
+      {
+        "uid": "760dada7-21a7-4980-9e26-ad0dbadd8344",
+        "name": "image.png",
+        "status": "done",
+        "url": "/images/2791d292-2902-48e1-822f-e078691424f18e025a61c9a29f752ed9a45b627b043d.gif"
+      }
+    ]
+  },
+  {
+    "id": "e4e03b19-df53-45b2-8a07-30230fd1a375",
+    "name": "a",
+    "details": "aa",
+    "images": [],
+    "label": "a",
+    "value": "a"
+  }
+]
