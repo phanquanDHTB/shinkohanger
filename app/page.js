@@ -56,13 +56,23 @@ const Home = () => {
   };
 
   const onSave = async (value) => {
-    const res = await axios.post("/api/json", value);
-    setValue(res.data.updatedItem);
-    setIsEdit(true);
-    readJSONFromPublic();
-    toast.success("OK", {
-      position: "top-right",
-    });
+    if (
+      value?.name === undefined ||
+      value?.name?.length === 0 ||
+      (data.some((item) => item.name === value?.name) && !value.id)
+    ) {
+      toast.error("名前は空欄や重複にしてはいけません。", {
+        position: "top-right",
+      });
+    } else {
+      const res = await axios.post("/api/json", value);
+      setValue(res.data.updatedItem);
+      setIsEdit(true);
+      readJSONFromPublic();
+      toast.success("OK", {
+        position: "top-right",
+      });
+    }
   };
   useEffect(() => {
     readJSONFromPublic();
@@ -133,17 +143,7 @@ const Home = () => {
             icon={<SaveOutlined />}
             disabled={isEdit}
             onClick={() => {
-              if (
-                value?.name === undefined ||
-                value?.name?.length === 0 ||
-                (data.some((item) => item.name === value?.name) && !value.id)
-              ) {
-                toast.error("名前は空欄や重複にしてはいけません。", {
-                  position: "top-right",
-                });
-              } else {
-                onSave(value);
-              }
+              onSave(value);
             }}
           />
           <Button

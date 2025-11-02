@@ -8,10 +8,16 @@
         "name": "image.png",
         "status": "done",
         "url": "/images/dbc26f49-8038-4c8d-9593-7ad6a2443860lr-teq-goku-angel-and-vegeta-angel-fusion-reborn.gif"
+      },
+      {
+        "uid": "71e8bf43-8a4a-4f2c-81fe-19508485b9f3",
+        "name": "image.png",
+        "status": "done",
+        "url": "/images/bc81409f-5fb5-436a-bb61-d90cd12943278e025a61c9a29f752ed9a45b627b043d.gif"
       }
     ],
-    "label": "goku",
-    "value": "goku",
+    "label": "gogeta",
+    "value": "gogeta",
     "details": "gogeta"
   },
   {
@@ -28,11 +34,18 @@
     ]
   },
   {
-    "id": "e4e03b19-df53-45b2-8a07-30230fd1a375",
-    "name": "a",
-    "details": "aa",
-    "images": [],
-    "label": "a",
-    "value": "a"
+    "id": "335c6d25-b209-4907-aec0-39df9fe7fc29",
+    "name": "goku",
+    "details": "goku",
+    "images": [
+      {
+        "uid": "49a48ab8-8349-4042-bba1-8dde486cc0fb",
+        "name": "image.png",
+        "status": "done",
+        "url": "/images/4e26cfa0-70eb-47b1-b4b2-43b2a9215ec3lr-teq-goku-angel-and-vegeta-angel-fusion-reborn.gif"
+      }
+    ],
+    "label": "gokuu",
+    "value": "gokuu"
   }
 ]
